@@ -2,9 +2,9 @@
 //     console.log(`Hi, ${name}!`)
 // }
 
-const sayHello=(name)=>{console.log(`Hi, ${name}!`)}
+const sayHello=(name)=>console.log(`Hi, ${name}!`)
 
-const getOlder=(age)=>{ console.log(age+50) }
+let getOlder=age=> {return age+50} 
 
 //____________________________________________________
 
